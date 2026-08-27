@@ -12,6 +12,10 @@ nav {
 ul {
     display: flex;
     list-style: none;
-    gap: 2rem;
     margin: 0;
+}
+
+ul > li:first-child::after, ul >li:last-child::before {
+    content: "•";
+    margin: 0 3rem;
 }
