@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    border: 0.1rem solid black
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    margin: 0;
+}
